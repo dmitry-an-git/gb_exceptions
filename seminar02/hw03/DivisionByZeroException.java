@@ -1,4 +1,4 @@
-package seminar02.hw03;
+package gb_exceptions.seminar02.hw03;
 
 public class DivisionByZeroException extends RuntimeException {
     

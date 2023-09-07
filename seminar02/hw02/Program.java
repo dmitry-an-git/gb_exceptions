@@ -1,4 +1,4 @@
-package seminar02.hw02;
+package gb_exceptions.seminar02.hw02;
 
 import java.util.Scanner;
 

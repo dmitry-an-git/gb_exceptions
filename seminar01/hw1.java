@@ -1,4 +1,4 @@
-package seminar01;
+package gb_exceptions.seminar01;
 
 public class hw1 {
     public static void main(String[] args) {

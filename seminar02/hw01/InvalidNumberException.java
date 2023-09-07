@@ -1,4 +1,4 @@
-package seminar02.hw01;
+package gb_exceptions.seminar02.hw01;
 
 public class InvalidNumberException extends Exception{
 

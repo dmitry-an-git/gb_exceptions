@@ -1,4 +1,4 @@
-package seminar01;
+package gb_exceptions.seminar01;
 
 import java.util.InputMismatchException;
 import java.util.Scanner; 
