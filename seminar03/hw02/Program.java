@@ -14,7 +14,7 @@ public class Program {
         FileManager fm = new FileManager();
 
         try { // записываем в файл строку с текстом
-            fm.writeFile("test1.txt", "some content\nда");
+            fm.writeFile("test1.txt", "some content");
             System.out.println("Запись в файл завершена успешно");
         } catch (FileWriterException e) {
             System.out.println("Ошибка: " + e.getMessage());
