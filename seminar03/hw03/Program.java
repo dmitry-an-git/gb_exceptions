@@ -30,7 +30,7 @@ public class Program {
         mc.multiply(4,4);
         mc.divide(5,2);
         mc.divide(5,0); // выведет и запишет сообщение об ошибке
-        mc.power(5,10); 
+        mc.power(2,4); 
         mc.power(5,-10); // выведет и запишет сообщение об ошибке
 
         System.out.println("Backlog:"); // покажет содержимое бэклога (повторит все что было выше)

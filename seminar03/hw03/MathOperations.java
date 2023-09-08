@@ -53,14 +53,14 @@ public class MathOperations {
     /**
      * Метод, который выполняет возведение в степень.
      *
-     * @param a Возводимое в степень число.
+     * @param a Основание степени.
      * @param b Степень.
      * @return Результат возведения в степень.
      * @throws ArithmeticException Если степень не целая или меньше 0.
      */
     public int power(int a, int b) throws ArithmeticException {
         if (b < 0) {
-            throw new ArithmeticException("Деление на ноль недопустимо.");
+            throw new ArithmeticException("Степень должна быть положительной.");
         } 
         int result = 1;
         if (b == 0) {
